@@ -752,11 +752,16 @@ section,
   animation: up-down 2s ease-in-out infinite alternate-reverse both;
 }
 
-@media (max-width: 640px) {
-  .hero h1 {
-    font-size: 28px;
-    line-height: 36px;
+@media (min-width: 992px) {
+  .hero .order-1 {
+    order: 1;
   }
+  .hero .order-2 {
+    order: 2;
+  }
+}
+
+
 
   .hero p {
     font-size: 18px;
